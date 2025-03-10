@@ -1,5 +1,9 @@
 # verbose-succotash
 
+## Setup
+add .env file
+> FIREWORKS_API_KEY=YOUR API KEY HERE
+
 ## Basic usage
 > python main.py ./idocs/passport-1.jpeg
 
@@ -27,6 +31,7 @@
 ## Technical Considerations
 
 - JSON extraction for data standardization
+- CLI command-based
 - checking for expiration date of KYC documents
 - Structured reporting with minimal dependencies
 
