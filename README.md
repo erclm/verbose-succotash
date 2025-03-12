@@ -1,5 +1,26 @@
 # verbose-succotash
 
+## About
+
+This project uses Generative AI through Fireworks AI to analyze and extract information from identity documents (passports and driver's licenses). The system uses computer vision and natural language processing to:
+
+- Automatically detect document type
+- Extract relevant information (names, dates, numbers)
+- Validate document expiration dates
+- Output structured JSON data
+
+## Technology
+
+- **Fireworks AI**: Cloud platform providing efficient access to large vision-language models
+- **Qwen2-VL-72B**: Advanced vision-language model optimized for document analysis
+- **Python SDK**: Simple integration with Fireworks AI API
+
+## Prerequisites
+
+- Fireworks AI account (get one at [fireworks.ai](https://fireworks.ai))
+- API key from Fireworks AI dashboard
+- Python 3.8+
+
 ## Setup
 add .env file
 > FIREWORKS_API_KEY=YOUR API KEY HERE
